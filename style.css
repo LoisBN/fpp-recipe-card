@@ -1,0 +1,138 @@
+/* TODO: Import a nice font from Google Fonts for your recipe card */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap');
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f9f7f4;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* TODO: Add card styling here (background, border-radius, box-shadow, padding) */
+.recipe-card {
+    background: white;
+    border-radius: 12px;
+    /* TODO: Add a nice box-shadow */
+    /* TODO: Add padding */
+    overflow: hidden;
+}
+
+/* TODO: Style the header section */
+.recipe-header {
+    position: relative;
+    /* TODO: Add padding and styling */
+}
+
+.recipe-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    /* TODO: Add color and margin */
+}
+
+/* TODO: Style the category tag as a pill shape */
+.category-tag {
+    display: inline-block;
+    background-color: #e8d5c4;
+    color: #8b6f47;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    /* TODO: Add margin and position */
+}
+
+/* TODO: Style the recipe image section */
+.recipe-image {
+    /* TODO: Add proper sizing and styling */
+}
+
+.recipe-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* TODO: Style the recipe info (prep time, cook time, servings) */
+.recipe-info {
+    display: flex;
+    justify-content: space-around;
+    /* TODO: Add background color and padding */
+}
+
+.info-item {
+    text-align: center;
+    /* TODO: Add styling */
+}
+
+.info-label {
+    display: block;
+    font-size: 0.85rem;
+    /* TODO: Add color */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info-value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* TODO: Add color */
+}
+
+/* TODO: Style the ingredients section */
+.recipe-ingredients {
+    /* TODO: Add padding and styling */
+}
+
+.recipe-ingredients h2,
+.recipe-instructions h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    /* TODO: Add margin and color */
+}
+
+.recipe-ingredients ul,
+.recipe-instructions ol {
+    margin-left: 20px;
+    /* TODO: Add spacing between items */
+}
+
+.recipe-ingredients li,
+.recipe-instructions li {
+    margin-bottom: 10px;
+    /* TODO: Add line-height for readability */
+}
+
+/* TODO: Style the instructions section */
+.recipe-instructions {
+    /* TODO: Add padding and styling */
+}
+
+/* TODO: Style the footer */
+.recipe-footer {
+    text-align: center;
+    border-top: 1px solid #e8d5c4;
+    /* TODO: Add padding and styling */
+    color: #8b6f47;
+    font-weight: 700;
+}
+
+/* TODO: Add responsive design for mobile screens */
+@media (max-width: 600px) {
+    /* TODO: Adjust font sizes */
+    /* TODO: Adjust padding */
+    /* TODO: Adjust layout if needed */
+}
