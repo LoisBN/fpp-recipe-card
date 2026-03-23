@@ -1,57 +1,29 @@
-# Recipe Card — HTML & CSS Basics
+# Recipe Card — HTML & CSS Practice
 
-Build a beautiful recipe card to practice HTML structure and CSS styling.
+Build a beautiful recipe card using just HTML and CSS. No frameworks, no npm — open the file and start building.
 
-## What You'll Learn
-
-- Semantic HTML elements (headings, lists, images)
-- CSS styling (borders, shadows, spacing, colors)
-- Hover effects and transitions
-- Responsive design basics
-
-## Tech Stack
-
-- **HTML** — page structure and content
-- **CSS** — styling and layout
-
-## Getting Started
+## Quick Start
 
 ```bash
-# 1. Clone this repo
 git clone https://github.com/LoisBN/fpp-recipe-card.git
 cd fpp-recipe-card
-
-# 2. Open in your browser
-# Option A: Right-click index.html → Open With → your browser
-# Option B: Use the Live Server extension in VS Code (click "Go Live")
 ```
 
-No `npm install` needed — this is a pure HTML/CSS project!
+Open `index.html` in your browser (right-click → Open With), or use the **Live Server** extension in VS Code.
+
+## Exercise Instructions
+
+This repo is part of the **From Prompt to Production** course.
+
+👉 **[Find the full exercise instructions on the course platform](https://aicode-academy.com)**
 
 ## Project Structure
 
 ```
 fpp-recipe-card/
-├── index.html    ← Your recipe card page (edit this!)
-└── style.css     ← Your styles (edit this!)
+├── index.html    ← Your recipe card page
+└── style.css     ← Your styles
 ```
-
-## Your Exercise Tasks
-
-See the exercise instructions on the course platform for the full task list. The short version:
-
-1. Open the project in your browser
-2. Add a recipe image, title, and cook time
-3. Create a styled ingredients list
-4. Add numbered preparation steps
-5. Polish with hover effects and responsive sizing
-
-## Hints
-
-- Use an image from unsplash.com for a food photo
-- For card styling: `border-radius`, `box-shadow`, `padding`, `overflow: hidden`
-- For hover: `transition: box-shadow 0.3s ease` then change shadow on `:hover`
-- For responsive width: `max-width: 500px; width: 100%; margin: 0 auto`
 
 ---
 
